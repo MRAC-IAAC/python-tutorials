@@ -76,6 +76,23 @@ Each virtual environment will have each own python interpreter (even if the pyth
 
 When you go on VSCode, you need to select the interpreter for your project in order to execute your files from there. Just select the path to the interpreter from your virtual environment. If you have kept your folders clean, that will be something like `<virtual_env_name>\Scripts\python.exe`
 
+### Good practice - having a .gitignore file
+
+A `.gitignore` file is used in Git repositories to specify files and directories that Git should ignore. 
+
+Why would you care to do that?
+* Prevent sensitive data from being pushed to the repository
+* Avoid committing temporary files, building logs
+* Improve cleanliness by excluding unnecessary files
+
+You create a .gitignore file just by creating a new file with that name.
+`touch .gitignore` 
+
+You ignore folder and files just by adding their name with the following syntax:
+* `file.extension` - for files
+* `folder_name/` - for folders
+
+If you have a virtual environment called `.my_env`, just open the `.gitignore` file and type `.my_env/` in the next empty line. That's it, from now on git will be ignoring these files.
 
 ## Exercise
 
