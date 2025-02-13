@@ -43,9 +43,9 @@ Run `pip help` to check if pip is installed. If it is not, run:
 
 ## Virtual Environments
 
-A (terminology alert) [**virtual environment**](VOCABULARY.md#venv) is a Python environment where the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and with access to any libraries installed at a system level, i.e., software and libraries installed as part of your operating system.
+A (terminology alert) [**virtual environment**](VOCABULARY.md#virtualenvironments) is a Python environment where the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and with access to any libraries installed at a system level, i.e., software and libraries installed as part of your operating system.
 
-Virtual environments are managed by the (terminology alert) [**standard library**](VOCABULARY.md#standard-library) `venv`. You can install the library on a system level with pip: `pip install virtualenv`
+Virtual environments are managed by the (terminology alert) [**standard library 'venv'**](VOCABULARY.md#venv). You can install the library on a system level with pip: `pip install virtualenv`
 
 ### Create virtual environment
 You want to work on a project that you cloned, you had locally, you just started, or in any case, you are working on a specific folder (which is good practice - have one folder per project). Navigate to the folder from your terminal and create a virtual environment by running:
@@ -70,7 +70,7 @@ Run `pip list` to see what exists in your environment
 
 ### Virtual Environment Interpreter
 
-Each virtual environment will have its own Python interpreter (even if the Python version and libraries are exactly the same, each virtual environment folder will (terminology alert) [**point to a specific path**](VOCABULARY.md#point-to-a-specific-path) of a Python interpreter.)
+Each virtual environment will have its own Python interpreter (even if the Python version and libraries are exactly the same, each virtual environment folder will (terminology alert) [**point to a specific path**](VOCABULARY.md#point-to-a-specific-path) of a Python interpreter).
 
 When you go on VSCode, you need to select the interpreter for your project in order to execute your files from there. Just select the path to the interpreter from your virtual environment. If you have kept your folders clean, that will be something like `<virtual_env_name>\Scripts\python.exe`
 
