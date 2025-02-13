@@ -17,7 +17,7 @@ Running `python script.py` in the terminal executes `script.py`.
 ---
 
 ## dependencies
-**Dependencies** refer to external libraries or modules that a Python project requires to function properly. These are usually installed using package managers like `pip`.
+<a name="dependencies"></a> **Dependencies** refer to external libraries or modules that a Python project requires to function properly. These are usually installed using package managers like `pip`.
 
 **Example:**  
 If a project requires `numpy` for numerical computations, install it using:
