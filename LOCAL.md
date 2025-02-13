@@ -43,7 +43,7 @@ Run `pip help` to check if pip is installed. If it is not, run:
 
 ## Virtual Environments
 
-A (terminology alert) [**virtual environment**](VOCABULARY.md#virtual-environment) is a Python environment where the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and with access to any libraries installed at a system level, i.e., software and libraries installed as part of your operating system.
+A (terminology alert) [**virtual environment**](VOCABULARY.md#venv) is a Python environment where the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and with access to any libraries installed at a system level, i.e., software and libraries installed as part of your operating system.
 
 Virtual environments are managed by the (terminology alert) [**standard library**](VOCABULARY.md#standard-library) `venv`. You can install the library on a system level with pip: `pip install virtualenv`
 
