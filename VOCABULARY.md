@@ -2,10 +2,10 @@
 
 <a name="runtime"></a> 
 ## Runtime in Google Collab
-A **runtime** is the period when a program is actively executing. In environments like Google Colab, the runtime can disconnect after inactivity or due to resource allocation policies, leading to loss of temporary data.
+A **runtime** is the period when a program is actively executing. In Google Colab, the runtime can disconnect due to inactivity or system resource policies, leading to the loss of temporary data like uploaded files and installed libraries.
 
 **Example:**  
-When Google Colab disconnects, all uploaded data and installed libraries are lost, requiring a fresh setup.
+If Google Colab disconnects, all uploaded files and installed libraries will be lost, requiring you to re-upload and reinstall them.
 
 ---
 
@@ -14,7 +14,13 @@ When Google Colab disconnects, all uploaded data and installed libraries are los
 To **execute a script** means to run a Python file in an environment where the code is interpreted and performed by the system.
 
 **Example:**  
-Running `python script.py` in the terminal executes `script.py`.
+Running:
+
+```bash
+python name_of_your_file.py 
+```
+
+in the terminal executes the output of code `name_of_your_file.py`.
 
 ---
 
@@ -33,16 +39,16 @@ pip install numpy
 
 <a name="virtualenvironments"></a>
 ## Virtual Environmets 
-A **virtual environment** is a Python environment where the Python interpreter, libraries, and scripts installed into it are isolated from those installed in other virtual environments while still having access to any libraries installed at a system level.
+A **virtual environment** is an isolated Python environment where the interpreter, libraries, and scripts are separate from the system-wide installation. This prevents conflicts between different projects that require different library versions.
 
 **Example:** 
-Sometimes you will need different versions of the libraries and creation of venv will be important to not have conflucts between them.
+If you need different versions of a library for different projects, creating a virtual environment ensures they don't interfere with each other.
 
 ---
 
 <a name="venv"></a> 
 ## Standard Library 'venv'
-The **venv** module supports creating lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. 
+The **venv** module is used to create lightweight virtual environments. Each virtual environment has its own Python installation and independent package directory. This allows for better project dependency management.
 
 **Example**
 Creating a virtual environment:
@@ -50,6 +56,8 @@ Creating a virtual environment:
 ```bash
 python -m venv my_env
 ```
+
+P.s. "my_env" ca be renaimed into any desired name for the project
 
 ---
 
@@ -61,14 +69,18 @@ To **source a virtual environment** means to activate it so that all installed d
 After you created the virtual environment, you need to activate it through: 
 
 ```bash
-source my_env/bin/activate
+source my_env/bin/activate # For macOS/Linux
+```
+
+```bash
+source my_env\Scripts\activate # For Windows
 ```
 
 ---
 
 <a name="point-to-a-specific-path"></a> 
 ## Poit to a specific path
-Each virtual environment has its own Python interpreter path, which must be selected in VS Code or any other IDE to ensure the correct environment is used.
+Each virtual environment has its own Python interpreter path. This path must be selected in IDEs like VS Code to ensure the correct environment is used.
 
 **Example**
 Selecting the virtual environment interpreter in VS Code:
