@@ -3,7 +3,7 @@
 # Index
 
 - [Assignig Value](#assignval)
-- [Case inn Python Codition](#cases)
+- [Case in Python](#cases)
 - [Compiled programming Language](#cpl)
 - [Condition in Python](#condition)
 - [Data Type](#datatype)
@@ -17,20 +17,20 @@
 - [Interpreter](#interpreter)
 - [Interpreted programming Language](#ipl)
 - [Jupyter Notebook](#jupyter)
-- [Locally hosting](#locally)
+- [Locally runnig](#locally)
 - [Machine Readble Instructions](#machine-readble-instructions)
 - [Point to a specific path](#point-to-a-specific-path)
 - [Runtime](#runtime)
 - [Source](#source)
 - [Standard python library](#standardlib)
-- [Terminal](#terminal)
+- [Terminal / Console](#terminal)
 - [Variable](#var)
 - [Virtual environments](#virtualenvironments)
 
 ---
 <a name="assignval"></a> 
 
-## To assign the value
+## Assignig Value
 To **assign a value** means to store a specific piece of data in a variable.
 
 **Example**
@@ -39,6 +39,16 @@ Assigning a value to a variable in Python:
 ```bash
 name = "Alice"
 ```
+
+---
+
+<a name="cpl"></a> 
+
+## Compiled programming Language
+A **compiled programming language** is one where the code is transformed into machine code before execution. This usually results in faster performance compared to interpreted languages.
+
+**Example**
+C and C++ are compiled languages, meaning they require compilation before running the program
 
 ---
 
@@ -60,9 +70,12 @@ elif fruit == "apple":
 else:
     print("Unknown fruit")
 ```
+
+---
+
 <a name="condition"></a> 
 
-## Condition in python
+## Condition in Python
 A **condition** in Python is an expression that evaluates to True or False and is used in decision-making structures like if statements.
 
 **Example**
@@ -75,19 +88,9 @@ if x == 10:
 
 ---
 
-<a name="cpl"></a> 
-
-## Compiled programming Language
-A **compiled programming language** is one where the code is transformed into machine code before execution. This usually results in faster performance compared to interpreted languages.
-
-**Example**
-C and C++ are compiled languages, meaning they require compilation before running the program
-
----
-
 <a name="datatype"></a> 
 
-## Data type
+## Data Type
 A **data type** defines the type of value a variable can hold, such as integers, floating-point numbers, strings, or lists.
 
 **Example**
@@ -103,7 +106,7 @@ name = "Alice"  # String
 
 <a name="declarevar"></a> 
 
-## To declare a variable
+## Declarig Variable
 To **declare a variable** means to define it and optionally assign a value to it.
 
 **Example**
@@ -117,7 +120,7 @@ message = "Hello, world!"
 
 <a name="dependencies"></a> 
 
-## Dependencies in Python
+## Dependencies 
 **Dependencies** are external libraries that your Python program needs to work correctly. These libraries are installed using package managers like `pip`.
 
 
@@ -132,7 +135,7 @@ pip install numpy
 
 <a name="execute"></a> 
 
-## To execute a script
+## Executing Script
 To **execute a script** means to run a Python file so the computer can understand and perform its instructions.
 
 **Example:**  
@@ -148,7 +151,7 @@ This line executes the output of code `script.py`.
 
 <a name="executecode"></a> 
 
-## To execute code
+## Execute
 When code is being **executed**, it means that the instructions written in a program are being processed and carried out by the computer.
 
 **Example**
@@ -178,7 +181,7 @@ Google Colab hosts Jupyter Notebooks in the cloud, so users don’t need to inst
 
 <a name="ifstate"></a> 
 
-## If statemets
+## If statement
 An **if statement** is a conditional structure that allows execution of a block of code only if a specified condition is true.
 
 **Example**
@@ -224,7 +227,7 @@ Jupyter Notebooks are widely used in data science and machine learning for inter
 
 <a name="locally"></a> 
 
-## To run locally
+## Locally running
 To **run locally** means to execute a program or script on your own computer instead of using a cloud-based service.
 
 **Example**
@@ -234,7 +237,7 @@ Instead of using Google Colab, you can install Jupyter Notebook and run Python s
 
 <a name="machine-readble-instructions"></a> 
 
-## Machine-readable instructions 
+## Machine Readble Instructions
 A compiled programming language converts source code into **machine-readable instructions** that can be directly executed by the computer’s hardware.
 
 **Example**
@@ -244,7 +247,7 @@ When you compile a C++ program, it produces an executable file that runs on your
 
 <a name="point-to-a-specific-path"></a> 
 
-## Poit to a specific path
+## Point to a specific path
 In Python, pointing to a specific path means specifying the exact location of a file or directory in the system so that Python can access it.
 
 **Example**
