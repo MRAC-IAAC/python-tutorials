@@ -4,7 +4,7 @@ In Part 1 it was explored how to use Python on Goggle Colab, a service that host
 
 Google Colab is great to be used as a playground to start writing code, however it has its limitations when you start working with data.
 
-Google Colab connects to a remote server and uses its resources, thus it takes a lot of time for you to upload or download your data (think uploading/downloading videos through Google Drive). Additionally, the resources you are using are not allocated to you forever, you are randomly allocated a slot for a finite amount of time. When the time is up your (terminology alert) [**Runtime**](VOCABULARY.md#runtime) disconnects and all of your data is lost. If you want to continue working later, you have to reconnect and reupload all of your data - had you not downloaded your output data before, then they are lost. If you have installed any additional libraries, you have to reinstall them from the beginning.
+Google Colab connects to a remote server and uses its resources, thus it takes a lot of time for you to upload or download your data (think uploading/downloading videos through Google Drive). Additionally, the resources you are using are not allocated to you forever, you are randomly allocated a slot for a finite amount of time. When the time is up your (terminology alert) [**Runtime**](VOCABULARY.md#Runtime) disconnects and all of your data is lost. If you want to continue working later, you have to reconnect and reupload all of your data - had you not downloaded your output data before, then they are lost. If you have installed any additional libraries, you have to reinstall them from the beginning.
 
 ## Using Python on Linux
 
@@ -15,7 +15,7 @@ You can check the installed Python version with:
 or
 `python3 --version`
 
-To (terminology alert) [**execute the script**](VOCABULARY.md#execute) from the terminal, navigate to the folder where the script is, and run `python <script_name.py>`
+To (terminology alert) [**execute the script**](VOCABULARY.md#Execute) from the terminal, navigate to the folder where the script is, and run `python <script_name.py>`
 
 ## Installing Packages with `apt`
 
@@ -25,7 +25,7 @@ The `apt` command is a powerful command-line tool, and it comes out of the box w
 
 ## Python Package Management with `pip`
 
-Package management (list, install, uninstall, ...) happens with the command `pip`. Today `pip` is the standard tool for installing Python packages and their (terminology alert) [**dependencies**](VOCABULARY.md#dependencies) in a secure manner.
+Package management (list, install, uninstall, ...) happens with the command `pip`. Today `pip` is the standard tool for installing Python packages and their (terminology alert) [**dependencies**](VOCABULARY.md#Dependencies) in a secure manner.
 
 Believe it or not, `pip` is an acronym for 'pip Installs Python', which does not really answer my question.
 
