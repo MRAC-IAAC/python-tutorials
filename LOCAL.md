@@ -1,6 +1,6 @@
 # Setting up Python locally
 
-In Part 1 it was explored how to use Python on Goggle Colab, a service that hosts Jupyter Notebooks that come preinstalled with Python and fundamentals libraries.
+In Part 1 it was explored how to use Python on Goggle Colab, a service that hosts Jupyter Notebooks that come preinstalled with Python and fundamentals libraries
 
 Google Colab is great to be used as a playground to start writing code, however it has its limitations when you start working with data.
 
